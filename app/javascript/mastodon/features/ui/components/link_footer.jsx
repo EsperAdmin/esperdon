@@ -64,7 +64,7 @@ class LinkFooter extends PureComponent {
     return (
       <div className='link-footer'>
         <p>
-          New to Mastodon and want an easier transition? Try the <a href='https://elk.urusai.social/'>Alternative UI (Elk)</a> for a more &quot;bird-like&quot; interface!
+          New to Mastodon and want an easier transition? Try the <a href='https://elk.esper.lol/'>Alternative UI (Elk)</a> for a more &quot;X-like&quot; interface!
         </p>
         <p>
           <strong>{domain}</strong>:
