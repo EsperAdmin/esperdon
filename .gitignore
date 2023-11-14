@@ -65,3 +65,4 @@ docker-compose.override.yml
 import_emoji.rb
 log.txt
 public.old/
+.husky/pre-commit
