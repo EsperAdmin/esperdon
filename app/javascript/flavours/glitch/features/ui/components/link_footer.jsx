@@ -64,12 +64,14 @@ class LinkFooter extends PureComponent {
     return (
       <div className='link-footer'>
         <p>
-          New to Mastodon and want an easier transition? Try the <a href='https://elk.esper.lol/'>Alternative UI (Elk)</a> for a more &quot;X-like&quot; interface!
+        New to Mastodon? Try the <a href='https://elk.esper.lol/'>Alternative UI (Elk)</a> for a more &quot;X-like&quot; interface!
         </p>
         <p>
           <strong>{domain}</strong>:
           {' '}
           <Link to='/about' target={multiColumn ? '_blank' : undefined}><FormattedMessage id='footer.about' defaultMessage='About' /></Link>
+          {DividingCircle}
+          <a href='https://spiritsandsuch.lol/' target="_blank"><FormattedMessage id='footer.spiritsandsuch' defaultMessage='SpiritsAndSuch' /></a>
           {statusPageUrl && (
             <>
               {DividingCircle}
